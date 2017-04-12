@@ -24,7 +24,7 @@ deploy:
            username: CICD1
            password: CICD1
        urls:
-          - https://$$MANTL_CONTROL/marathon/v2/apps/class/$$DOCKER_USERNAME/restart?force=true
+          - https://control.sandbox.imapex.io/marathon/v2/apps/class/lawchung/restart?force=true
 notify:
     spark:
        image: hpreston/drone-spark
